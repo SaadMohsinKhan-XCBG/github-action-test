@@ -15,9 +15,9 @@ jobs:
     - name: Check out code
       uses: actions/checkout@v2
     - name: Configure AWS Credentials
-      uses: aws-actions/configure-aws-credentials@master
+      uses: aws-actions/configure-aws-credentials@v1
       with:
-        role-to-assume: arn:aws:iam::978252209033:role/GitHubOIDCRole
+        role-to-assume: arn:aws:iam::758008459664:role/GitHubOIDCRole
         aws-region: eu-central-1
         role-session-name: GithubActionDeployment
 
